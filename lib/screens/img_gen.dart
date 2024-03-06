@@ -9,7 +9,7 @@ class GenImage extends StatefulWidget {
 }
 class _GenImageState extends State<GenImage> {
   TextEditingController inputText = TextEditingController();
-  String apikey = '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';
+  // String apikey = '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';
   String url = 'https://api.openai.com/v1/images/generations';
   String? image;
   void getAIImage() async{

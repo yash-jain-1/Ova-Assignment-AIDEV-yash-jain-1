@@ -1,3 +1,4 @@
+import 'package:cat_chat_2/services/consts.dart';
 import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 import 'package:dash_chat_2/dash_chat_2.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class _ChatPageState extends State<ChatPage> {
       "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";
 
   final _openAI = OpenAI.instance.build(
-      token: "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",
+      token: apikey,
       baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 5)),
       enableLog: true);
 
